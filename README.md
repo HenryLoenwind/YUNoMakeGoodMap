@@ -1,4 +1,6 @@
-YUNoMakeGoodMap
-===============
+ThatsAGoodMap
+=============
 
-Void map mod for Minecraft, simple as crap don't complain to me!
+Fork of Lex's void map mod for Minecraft for our server.
+
+Removed platforms, added world gen events for Travel huts.
