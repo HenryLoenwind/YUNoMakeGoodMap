@@ -1,4 +1,2 @@
 generator.void=Void World
 generator.default=Overworld
-
-command.yunmgm.newspawn.usage=/newSpawnPlatform <platformType> <player>

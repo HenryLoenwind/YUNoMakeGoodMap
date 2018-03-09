@@ -30,11 +30,11 @@ configurations { deployJars }
 apply plugin: 'net.minecraftforge.gradle.forge'
 apply plugin: 'maven'
 
-version = "1.12-6.3.0"
+version = "1.12.2-63981.13729.42779"
 group = "info.loenwind.thatsagoodmap"
 archivesBaseName = "ThatsAGoodMap"
 
-ext.build_number = "${System.getenv().BUILD_NUMBER}"
+ext.build_number = "0000000${System.getenv().BUILD_NUMBER}"
 logger.lifecycle "Build: " + build_number
 if (build_number.toString().equals('null')) build_number = '0'
 logger.lifecycle "Build: " + build_number
@@ -47,7 +47,7 @@ minecraft {
     mappings = "snapshot_20171212"
 
     replace "@MOD_VERSION@", project.version
-    replaceIn "YUNoMakeGoodMap.java"
+    replaceIn "ThatsAGoodMapMod.java"
 }
 
 processResources
