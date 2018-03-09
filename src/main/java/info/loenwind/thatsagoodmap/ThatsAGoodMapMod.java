@@ -26,7 +26,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 import static net.minecraftforge.common.config.Configuration.CATEGORY_GENERAL;
 
-@Mod(modid = ThatsAGoodMapMod.MODID, name = ThatsAGoodMapMod.NAME, version = "@MOD_VERSION@", dependencies = "after: BiomesOPlenty")
+@Mod(modid = ThatsAGoodMapMod.MODID, name = ThatsAGoodMapMod.NAME, version = "@MOD_VERSION@")
 public class ThatsAGoodMapMod {
 
   public static final String NAME = "ThatsAGoodMap";
